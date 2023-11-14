@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Sono", sans-serif;
+}
+
+body {
+  background: linear-gradient(to bottom right, #0007ff, #00e9ff);
+  background-attachment: fixed;
+}
+
+h1 {
+  color: white;
+}
+
+.candidatos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contador {
+  border: 1px solid black;
+  border-radius: 16px;
+  padding: 10px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin: 10px;
+}
+
+.contador h2 {
+  font-size: 2.2rem;
+}
+
+.contador h3 {
+  color: blue;
+  font-size: 5.4rem;
+  font-weight: 100;
+}
+
+.botones {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 5px;
+}
+
+.contador button {
+  background-color: #00bffe;
+  font-size: 3rem;
+  font-weight: 900;
+  color: white;
+  padding: 0 10px;
+  border-radius: 10px;
+  width: 120px;
+  margin: 5px;
+}
