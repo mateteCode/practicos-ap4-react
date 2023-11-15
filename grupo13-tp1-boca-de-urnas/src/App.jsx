@@ -7,8 +7,8 @@ function App() {
     <div>
       <h1 className="Titulo">Boca de Urnas</h1>
       <div className="candidatos">
-        {candidatos.map((candidato) => (
-          <Contador candidato={candidato} />
+        {candidatos.map((candidato, index) => (
+          <Contador key={index} candidato={candidato} />
         ))}
       </div>
     </div>
