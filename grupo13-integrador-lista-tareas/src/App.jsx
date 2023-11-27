@@ -8,7 +8,7 @@ const App = () => {
   const [tareas, setTareas] = useState([]);
 
   useEffect(() => {
-    const tareasAlmacenadas = JSON.parse(localStorage.getItem("tareas"));
+    const tareasAlmacenadas = JSON.parse(localStorage.getItem("tareas")) || [];
     console.log(tareasAlmacenadas);
     setTareas(tareasAlmacenadas);
   }, []);
